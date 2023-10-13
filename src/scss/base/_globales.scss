@@ -1,0 +1,37 @@
+@use 'variables' as v;
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+body {
+    font-family: v.$fuente-secundaria;
+    font-size: 1.6rem; // 16px
+    line-height: 1.5;
+    color: v.$color-secundario;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: v.$fuente-principal;
+}
+
+h1 {
+    font-size: 3.6rem; 
+    font-weight: v.$bold;
+}
+
+h2 {
+    font-size: 2.8rem; 
+    font-weight: v.$semibold;
+}
+
+h3 {
+    font-size: 2.4rem; 
+}

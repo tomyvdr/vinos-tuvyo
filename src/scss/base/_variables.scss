@@ -1,0 +1,21 @@
+//Colores
+$color-primario: #F7F4EF; // Color de fondo claro
+$color-secundario: #726C64; // Color de texto oscuro
+$color-acento: #B8AFA5; // Color de acento, utilizado en algunos textos y elementos
+$color-logo: #2C2B2B; // Color oscuro del logo "TU/VO"
+$color-iconos: #D3D0CB; // Color de los íconos del header
+
+//Fuentes
+$fuente-principal: 'Roboto', sans-serif;  // Fuente para los encabezados
+$fuente-secundaria: 'Open Sans', sans-serif;  // Fuente para el texto del cuerpo
+
+// Pesos de las fuentes
+$normal: 400;
+$semibold: 600;
+$bold: 700;
+
+//Mediaqueries
+$phone: 480px;
+$tablet: 768px;
+$desktop: 992px;
+$desktopXL: 1200px;

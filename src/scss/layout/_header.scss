@@ -1,0 +1,49 @@
+@use 'base/variables' as v;
+
+.header {
+    background-color: v.$color-primario;
+    padding: 1.5rem 2rem; // 15px de alto y 20px de ancho
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    &-brand {
+        a {
+            text-decoration: none;
+            font-family: v.$fuente-principal;
+            font-weight: v.$bold;
+            color: v.$color-logo;
+            font-size: 2.4rem; // 24px
+            text-transform: uppercase;
+        }
+    }
+
+    &-menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 2rem; // espacio entre los elementos de la lista
+
+        li {
+            a {
+                text-decoration: none;
+                font-family: v.$fuente-secundaria;
+                font-weight: v.$semibold;
+                color: v.$color-secundario;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: v.$color-acento;
+                }
+            }
+        }
+    }
+}
